@@ -1,8 +1,6 @@
-# passport-2fa-totp
+# passport-2fa-totp-v2
 
-[![Build Status](https://travis-ci.org/ilich/passport-2fa-totp.svg?branch=master)](https://travis-ci.org/ilich/passport-2fa-totp)
-
-[Passport](http://passportjs.org/) strategy for Two-factor authenticating with a username, password and TOTP code.
+[Passport](http://passportjs.org/) strategy for Two-factor authenticating with a username, password and TOTP code. A fork of gzye's fork, adding possibility to skip 2FA if no secret.
 
 This module lets you authenticate using a username, password and TOTP code in your Node.js applications. By plugging into Passport, 2FA TOTP authentication can be easily and unobtrusively integrated into any application or framework that supports [Connect](http://www.senchalabs.org/connect/)-style middleware, including [Express](http://expressjs.com/). You can use any TOTP code generators to generate one-time passwords, for example [Google Authenticator](https://github.com/google/google-authenticator).
 
